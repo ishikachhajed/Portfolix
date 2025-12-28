@@ -8,7 +8,8 @@ const portfolioSchema = new mongoose.Schema(
       required: true,
       unique: true,
     },
-
+    skills: [String],
+    achievements: [String],
     headline: String,
     bio: String,
     collegeName: String,
